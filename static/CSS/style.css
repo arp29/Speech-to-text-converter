@@ -1,0 +1,23 @@
+.container1{
+    margin: auto;
+    text-align: center;
+    
+}
+
+.speech-to-text{
+    display: flex;
+    margin: 30px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: darkgrey;
+    padding: 100px;
+}
+.text-class{
+    background-color: ghostwhite;
+    display: flex;
+    width: 90%;
+    flex-wrap: wrap;
+    margin: 20px;
+    padding: auto;
+    text-shadow:black ;
+}

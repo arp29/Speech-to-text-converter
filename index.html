@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/CSS/style.css">
+    <title>Speech to Text</title>
+</head>
+<body>
+
+    <div class="container1">
+        <h1>SPEECH TO TEXT CONVERTER</h1>
+        <h4>Convert Your Speech to Text</h4>
+
+
+        <div class="speech-to-text">
+            <h2>Don't have time to type!! We are here for you!! Click start to convert your Speech to text</h2>
+
+            <div class="speech-to-text-converter">
+                <button class="btn-lg btn-primary" id="speech-to-text-button" onclick="startRecord()">START</button>
+                <button class="btn-lg btn-danger" id="speech-to-text-stop" onclick="stopRecord()">STOP</button>
+                <div class="text-class">
+                    <p id="speech-to-text-area"></p>
+                </div>
+               
+                
+                <p id="instruction"></p>
+              
+            </div>
+        </div>
+    </div>
+
+
+   
+    <script src="static/JS/script.js"></script>
+</body>
+</html>
